@@ -2,7 +2,7 @@ import axios from 'axios';
 import queryString from 'query-string';
 
 const axiosClient = axios.create({
-  baseURL: 'http://localhost:8080',
+  baseURL: 'https://els12.herokuapp.com',
   headers: {
     'content-type': 'application/json',
     'Access-Control-Allow-Origin': '*',
